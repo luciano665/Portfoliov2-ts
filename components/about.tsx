@@ -1,10 +1,25 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import SectionHeading from "./section-heading";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useActiveSectionContext } from "@/context/active-section";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
+  const { ref } = useSectionInView("About", 0.5);
+
   return (
-    <section className="mb-28 mx-w-[45rem] text-center leading-8 sm:sb-40">
-      <SectionHeading>About me</SectionHeading>
+    <motion.section
+      ref={ref}
+      className="mb-28 mx-w-[45rem] text-center leading-8 sm:sb-40 scroll-mt-28"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
+      id="about"
+    >
+      <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
         Currently a student at West Viginia University{" "}
         <span className="font-medium">
@@ -39,6 +54,6 @@ export default function About() {
         </span>
         . I'm also learning how GANs and GNNs work.
       </p>
-    </section>
+    </motion.section>
   );
 }

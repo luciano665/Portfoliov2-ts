@@ -3,9 +3,13 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import dinning from "@/public/didi.png";
+import insurance from "@/public/insurance.png";
+import portfolio from "@/public/portfolio.png"
 
+
+//Array of links
+//Const will not change 
 export const links = [
   {
     name: "Home",
@@ -31,56 +35,56 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
-] as const;
+] as const; //Typescript feature, able to be more precise, it should be specifically this strings
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineer Intern ",
+    location: "La Paz, Bolivia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Develop an RESTFulAPI for task managment system and report generation for departaments across the company uisng Java, develop algorithm for automatic remote work assignation using python and consume endpoint from dispatch to generate automatic Excel reports based of specific requiements.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "June 2024 - July 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Undergradute Research assistant",
+    location: "Morgantown, WV",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Implment a different Machine Learning algorithms for private-key generation based on ECG signals converted in bio-bits. At the same time implement 'masking' using different Deeplearning architectures.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2024 - Present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Tutor of Engineering",
+    location: "Morgantown, WV",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Helpin students with science based courses in the Engineering learning center, mainly Calculus 1 through 3 and Introduction to CS and data structure and algorithms.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Dinning review RESTFul API",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Engineered and launched a RESTful API to enhance user experiences in restaurant selection and review management. ",
+    tags: ["Java", "Springframework", "H2 database", "Postman"],
+    imageUrl: dinning,
   },
   {
-    title: "rmtDev",
+    title: "US Insurance cost analysis",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Using csv file from kaggle we explore how gender, smoking status, BMI, the number of children, and regional differences impact insurance premiums",
+    tags: ["Python", "Numpy", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
+    imageUrl: insurance,
   },
   {
-    title: "Word Analytics",
+    title: "This portfolio",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A portfolio website to show my journey to the internet.",
+    tags: ["React", "Next.js", "Tailwind", "Framer"],
+    imageUrl: portfolio,
   },
 ] as const;
 
@@ -91,17 +95,17 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
   "Python",
-  "Django",
+  "Java",
+  "Tensorflow", 
+  "Scikit-learn",
+  "Pytorch",
+  "Numpy",
+  "Pandas", 
+  "Mathplotlib",
+  "Springframework",
   "Framer Motion",
 ] as const;
