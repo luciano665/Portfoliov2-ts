@@ -107,5 +107,5 @@ export const skillsData = [
   "Pandas", 
   "Mathplotlib",
   "Springframework",
-  "Framer Motion",
+  "H2 data base engine",
 ] as const;
