@@ -39,18 +39,37 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Student at West Virginia University",
+    location: "Morgantown, WV",
+    description:
+      "Majoring in Computer Science with a minor in Applied Mathematics",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - Present",
+  },
+
+  {
+    title: "Undergraduate Teaching assistant",
+    location: "Morgantown, WV",
+    description:
+      "Help instructors from the Communication Deparment for the class 'Group Communication'. Assist student with a comprehensive evaluation for projects, providing detailed feedback, and helping with any concerns regarding the subject",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023",
+  },
+
+  {
     title: "Software Engineer Intern ",
     location: "La Paz, Bolivia",
     description:
       "Develop an RESTFulAPI for task managment system and report generation for departaments across the company uisng Java, develop algorithm for automatic remote work assignation using python and consume endpoint from dispatch to generate automatic Excel reports based of specific requiements.",
-    icon: React.createElement(LuGraduationCap),
-    date: "June 2024 - July 2024",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024",
   },
+
   {
     title: "Undergradute Research assistant",
     location: "Morgantown, WV",
     description:
-      "Implment a different Machine Learning algorithms for private-key generation based on ECG signals converted in bio-bits. At the same time implement 'masking' using different Deeplearning architectures.",
+      "Implment a different Machine Learning algorithms and Deeplearning techniques for private-key generation based on ECG signals converted in bio-bits.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - Present",
   },
@@ -59,8 +78,8 @@ export const experiencesData = [
     location: "Morgantown, WV",
     description:
       "Helpin students with science based courses in the Engineering learning center, mainly Calculus 1 through 3 and Introduction to CS and data structure and algorithms.",
-    icon: React.createElement(FaReact),
-    date: "2024 - present",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
   },
 ] as const;
 
