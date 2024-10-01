@@ -23,14 +23,14 @@ export default function About() {
         <span className="font-medium">
           Computer Science Major and Applied Mathematics minor
         </span>
-        , I decided to pursue my passion for computers and numbers. I'm
+        , I decided to pursue my passion for computers and numbers. I am
         constantly learning new technologies as well{" "}
         <span className="font-medium">
           applying this new knowledge in projects
         </span>
-        . <span className="italic">I love </span> the problem-solving aspect.
-        I'm <span className="underline">addicted</span> in a good way to the
-        feeling of finally figuring out a solution to a problem. I'm proficient
+        . <span className="italic">I love </span> the problem-solving aspect. I
+        am <span className="underline">addicted</span> in a good way to the
+        feeling of finally figuring out a solution to a problem. I am proficient
         using <span className="font-medium">Python and Java.</span>
         Pyhton for ML applications and Java more for backend. I am also familiar
         with front-end development using TypeScript and Tailwind CSS.However, I
@@ -50,7 +50,7 @@ export default function About() {
           {" "}
           more in depth workings of Deeplearning algorithms
         </span>
-        . I'm also learning how GANs and GNNs work.
+        . I am also learning how GANs and GNNs work.
       </p>
     </motion.section>
   );

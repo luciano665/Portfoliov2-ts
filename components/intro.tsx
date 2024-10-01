@@ -52,9 +52,9 @@ export default function Intro() {
       >
         {" "}
         {/*The !leading is to overwrite the rules */}
-        <span className="font-bold"> Hello there, My name Luciano</span>
-        I'm a <span className="font-bold"> undergraduate student</span> pursuing
-        a <span className="font-bold">Computer Science</span> major. I enjoy
+        <span className="font-bold"> Hello there, My name Luciano</span>I am a{" "}
+        <span className="font-bold"> undergraduate student</span> pursuing a{" "}
+        <span className="font-bold">Computer Science</span> major. I enjoy
         learning about new technologies and apply them into real life
         circustances and{" "}
         <span className="font-bold">solve problems with tech </span>
