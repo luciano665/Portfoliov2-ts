@@ -1,11 +1,10 @@
 "use client"; //to activate framer morion since is using teh useeffect froom reatc
 
-import React, { useEffect } from "react";
-import img from "@/public/img.jpg";
+import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";

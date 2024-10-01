@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link";
 import clsx from "clsx";
-import { IntersectionObserverProps } from "react-intersection-observer";
 import { useActiveSectionContext } from "@/context/active-section";
 
 export default function Header() {

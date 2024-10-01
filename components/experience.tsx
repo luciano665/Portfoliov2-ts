@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useContext } from "react";
+import React from "react";
 import SectionHeading from "./section-heading";
 import {
   VerticalTimeline,
@@ -11,7 +11,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
-import theme, { useTheme } from "@/context/theme";
+import  { useTheme } from "@/context/theme";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");

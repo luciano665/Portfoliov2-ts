@@ -1,8 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
 import dinning from "@/public/didi.png";
 import insurance from "@/public/insurance.png";
 import portfolio from "@/public/portfolio.png"
