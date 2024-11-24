@@ -93,13 +93,13 @@ export const projectsData = [
     description:
       "Using csv file from kaggle we explore how gender, smoking status, BMI, the number of children, and regional differences impact insurance premiums",
     tags: [
-      "Python",
-      "Numpy",
-      "Pandas",
-      "Matplotlib",
-      "Seaborn",
-      "Jupyter Notebook",
-    ],
+          "Python",
+          "Numpy",
+          "Pandas",
+          "Matplotlib",
+          "Seaborn",
+          "Jupyter Notebook"
+        ],
     imageUrl: insurance,
   },
   {
