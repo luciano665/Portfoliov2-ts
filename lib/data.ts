@@ -3,11 +3,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import dinning from "@/public/didi.png";
 import insurance from "@/public/insurance.png";
-import portfolio from "@/public/portfolio.png"
-
+import portfolio from "@/public/portfolio.png";
 
 //Array of links
-//Const will not change 
+//Const will not change
 export const links = [
   {
     name: "Home",
@@ -93,13 +92,19 @@ export const projectsData = [
     title: "US Insurance cost analysis",
     description:
       "Using csv file from kaggle we explore how gender, smoking status, BMI, the number of children, and regional differences impact insurance premiums",
-    tags: ["Python", "Numpy", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
+    tags: [
+          "Python",
+          "Numpy",
+          "Pandas",
+          "Matplotlib",
+          "Seaborn",
+          "Jupyter Notebook"
+        ],
     imageUrl: insurance,
   },
   {
-    title: "This portfolio",
-    description:
-      "A portfolio website to show my journey to the internet.",
+    title: "Brain tumor classification",
+    description: "A portfolio website to show my journey to the internet.",
     tags: ["React", "Next.js", "Tailwind", "Framer"],
     imageUrl: portfolio,
   },
@@ -117,11 +122,11 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "Java",
-  "Tensorflow", 
+  "Tensorflow",
   "Scikit-learn",
   "Pytorch",
   "Numpy",
-  "Pandas", 
+  "Pandas",
   "Mathplotlib",
   "Springframework",
   "H2 data base engine",
