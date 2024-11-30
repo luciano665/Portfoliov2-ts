@@ -2,8 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import dinning from "@/public/didi.png";
-import insurance from "@/public/insurance.png";
-import portfolio from "@/public/portfolio.png";
+import ML from "@/public/ML-churn.png";
+import resnet from "@/public/resnet.png";
+import agent from "@/public/AI-AGENT.png";
 
 //Array of links
 //Const will not change
@@ -66,7 +67,7 @@ export const experiencesData = [
     title: "Undergradute Research assistant",
     location: "Morgantown, WV",
     description:
-      "Implment a different Machine Learning algorithms and Deeplearning techniques for private-key generation based on ECG signals converted in bio-bits.",
+      "Implement different Machine Learning algorithms and Deeplearning techniques for private-key generation based on ECG signals converted in bio-bits. Custom architecture inspired on ResNet from Stanford ML group.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - Present",
   },
@@ -74,7 +75,7 @@ export const experiencesData = [
     title: "Tutor of Engineering",
     location: "Morgantown, WV",
     description:
-      "Helpin students with science based courses in the Engineering learning center, mainly Calculus 1 through 3 and Introduction to CS and data structure and algorithms.",
+      "Helping students with science based courses in the Engineering learning center, mainly Calculus 1 through 3 and Introduction to CS and data structure and algorithms.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - Present",
   },
@@ -89,24 +90,33 @@ export const projectsData = [
     imageUrl: dinning,
   },
   {
-    title: "US Insurance cost analysis",
+    title: "Customer Churn Prediction with ML",
     description:
-      "Using csv file from kaggle we explore how gender, smoking status, BMI, the number of children, and regional differences impact insurance premiums",
-    tags: [
-          "Python",
-          "Numpy",
-          "Pandas",
-          "Matplotlib",
-          "Seaborn",
-          "Jupyter Notebook"
-        ],
-    imageUrl: insurance,
+      "Developed an end-to-end customer churn prediction system, incorporating machine learning, a web app with real-time inference, LLM-based insights, personalized email generation, and scalable AWS deployment with Docker.",
+    tags: ["Numpy", "Pandas", "Streamlit", "Grok-API", "AWS", "Docker"],
+    imageUrl: ML,
   },
   {
     title: "Brain tumor classification",
-    description: "A portfolio website to show my journey to the internet.",
-    tags: ["React", "Next.js", "Tailwind", "Framer"],
-    imageUrl: portfolio,
+    description:
+      "In this project, I developed a deep learning-based system for brain tumor classification using medical image data to accurately identify and categorize tumor types,",
+    tags: [
+      "Tensorflow",
+      "Scikit-learn",
+      "Stremalit",
+      "Pandas",
+      "Numpy",
+      "Gemini-Flash",
+    ],
+    imageUrl: resnet,
+  },
+
+  {
+    title: "AI-AGENT Python Parser",
+    description:
+      "Implement a pyhton parser to examine Pull request using Abstract Syntax Tree (AST) parsing. In order to give the AI more insightful input, the parser determines the greatest enclosing context for code suggestions.",
+    tags: ["Typescript", "Next.js", "Tree-sitter", "GitHub-apps"],
+    imageUrl: agent,
   },
 ] as const;
 
