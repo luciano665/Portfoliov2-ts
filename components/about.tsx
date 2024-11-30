@@ -19,36 +19,35 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        Currently a student at West Viginia University{" "}
+        Currently a student at West Virginia University,{" "}
         <span className="font-medium">
-          Computer Science Major and Applied Mathematics minor
+          majoring in Computer Science and minoring in Applied Mathematics
         </span>
         , I decided to pursue my passion for computers and numbers. I am
-        constantly learning new technologies as well{" "}
+        constantly learning new technologies as well as{" "}
         <span className="font-medium">
           applying this new knowledge in projects
         </span>
-        . <span className="italic">I love </span> the problem-solving aspect. I
-        am <span className="underline">addicted</span> in a good way to the
-        feeling of finally figuring out a solution to a problem. I am proficient
-        using <span className="font-medium">Python and Java.</span>
-        Pyhton for ML applications and Java more for backend. I am also familiar
-        with front-end development using TypeScript and Tailwind CSS.However, I
-        am always looking to learn new technologies. I am currently looking for{" "}
+        . <span className="italic">I love</span> the problem-solving aspect. I
+        am <span className="underline">addicted</span>, in a good way, to the
+        feeling of finally figuring out a solution to a problem. I am currently
+        looking for{" "}
         <span className="font-medium">
-          interships for SWE, Research student or Data engineer.
+          internships as a Software Engineer, Research Intern, or Data Engineer.
         </span>{" "}
-        I plan to become a ML engineer by continously researching and applpying
-        new ideas to help my community.
+        I plan to become an ML Engineer by continuously researching and applying
+        new ideas to help my community. During this year, I have found a passion
+        for research, and I really want to pursue this passion in the upcoming
+        years in academia and, in the near future, hopefully get a PhD.
       </p>
       <p>
-        <span className="italic">When I have free time </span>, I enjoy playing
-        video games, watching movies, and read books. I also enjoy{" "}
+        <span className="italic">When I have free time</span>, I enjoy playing
+        video games, watching movies, and reading books. I'm also planning to
+        start a technical blog soon about the things I'm learning. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">
-          {" "}
-          more in depth workings of Deeplearning algorithms
+          the more in-depth workings of deep learning algorithms
         </span>
         . I am also learning how GANs and GNNs work.
       </p>

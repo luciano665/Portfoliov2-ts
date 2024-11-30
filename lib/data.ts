@@ -5,6 +5,8 @@ import dinning from "@/public/didi.png";
 import ML from "@/public/ML-churn.png";
 import resnet from "@/public/resnet.png";
 import agent from "@/public/AI-AGENT.png";
+import rag from "@/public/RAG-CODEBASE-APP-PORTFOLIO.png";
+import todo from "@/public/AI-TODO-LIST.png";
 
 //Array of links
 //Const will not change
@@ -100,14 +102,7 @@ export const projectsData = [
     title: "Brain tumor classification",
     description:
       "In this project, I developed a deep learning-based system for brain tumor classification using medical image data to accurately identify and categorize tumor types,",
-    tags: [
-      "Tensorflow",
-      "Scikit-learn",
-      "Stremalit",
-      "Pandas",
-      "Numpy",
-      "Gemini-Flash",
-    ],
+    tags: ["Tensorflow", "Scikit-learn", "Stremalit", "Python", "Gemini-Flash"],
     imageUrl: resnet,
   },
 
@@ -117,6 +112,22 @@ export const projectsData = [
       "Implement a pyhton parser to examine Pull request using Abstract Syntax Tree (AST) parsing. In order to give the AI more insightful input, the parser determines the greatest enclosing context for code suggestions.",
     tags: ["Typescript", "Next.js", "Tree-sitter", "GitHub-apps"],
     imageUrl: agent,
+  },
+
+  {
+    title: "Codebase Analysis Web App",
+    description:
+      "Developed a scalable web app for dynamic repository cloning, code analysis with Tree-sitter, embedding storage via Pinecone, and RAG workflows.",
+    tags: ["Gradio", "Tree-sitter", "FastAPI", "Pinecone", "Hugging Face"],
+    imageUrl: rag,
+  },
+
+  {
+    title: "AI To-Do List Application",
+    description:
+      "A Next.js-based to-do list app with user authentication and dynamic task management.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Convex", "React"],
+    imageUrl: todo,
   },
 ] as const;
 
