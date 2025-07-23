@@ -1,12 +1,14 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import dinning from "@/public/didi.png";
-import ML from "@/public/ML-churn.png";
-import resnet from "@/public/resnet.png";
-import agent from "@/public/AI-AGENT.png";
-import rag from "@/public/RAG-CODEBASE-APP-PORTFOLIO.png";
-import todo from "@/public/AI-TODO-LIST.png";
+
+// IMAGES\
+const dinning = "/didi.png";
+const ML = "/ML-churn.png";
+const resnet = "/resnet.png";
+const agent = "/AI-AGENT.png";
+const rag = "/RAG-CODEBASE-APP-PORTFOLIO.png";
+const todo = "/AI-TODO-LIST.png";
 
 //Array of links
 //Const will not change
