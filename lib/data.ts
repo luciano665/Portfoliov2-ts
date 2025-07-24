@@ -131,6 +131,13 @@ export const projectsData = [
     tags: ["Next.js", "TypeScript", "Tailwind", "Convex", "React"],
     imageUrl: todo,
   },
+  {
+    title: "Agentic AI customer support",
+    description:
+      "Developed an agentic AI customer support system using Python, Langchain, and OpenAI to provide real-time, context-aware responses to customer inquiries.",
+    tags: ["Python", "Langchain", "OpenAI", "FastAPI", "LangGraph"],
+    imageUrl: agent,
+  }
 ] as const;
 
 export const skillsData = [
