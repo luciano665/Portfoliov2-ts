@@ -45,7 +45,7 @@ export const experiencesData = [
     location: "Morgantown, WV",
     description:
       "Majoring in Computer Science with a minor in Applied Mathematics",
-    icon: LuGraduationCap,
+    icon: React.createElement(LuGraduationCap),
     date: "2023 - Present",
   },
 
