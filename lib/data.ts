@@ -161,3 +161,4 @@ export const skillsData = [
   "Springframework",
   "H2 data base engine",
 ] as const;
+// Git configuration updated
