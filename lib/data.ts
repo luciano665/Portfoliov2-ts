@@ -45,7 +45,7 @@ export const experiencesData = [
     location: "Morgantown, WV",
     description:
       "Majoring in Computer Science with a minor in Applied Mathematics",
-    icon: React.createElement(LuGraduationCap),
+    icon: LuGraduationCap,
     date: "2023 - Present",
   },
 
@@ -109,7 +109,7 @@ export const projectsData = [
   },
 
   {
-    title: "AI-AGENT Python Parser",
+    title: "AI-AGENT Repository Analyzer",
     description:
       "Implement a pyhton parser to examine Pull request using Abstract Syntax Tree (AST) parsing. In order to give the AI more insightful input, the parser determines the greatest enclosing context for code suggestions.",
     tags: ["Typescript", "Next.js", "Tree-sitter", "GitHub-apps"],
