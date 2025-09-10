@@ -71,7 +71,7 @@ export const experiencesData = [
     title: "Undergradute Research assistant",
     location: "Morgantown, WV",
     description:
-      "Implement different Machine Learning algorithms and Deeplearning techniques for private-key generation based on ECG signals converted in bio-bits. Custom architecture inspired on ResNet from Stanford ML group.",
+      "Implement different Machine Learning algorithms and Deeplearning techniques for private-key generation based on ECG signals converted in bio-bits. Three different architectures were implemented.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - Present",
   },
@@ -147,6 +147,8 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Node.js",
+  "Docker",
   "Git",
   "Tailwind",
   "PostgreSQL",
@@ -159,7 +161,6 @@ export const skillsData = [
   "Pandas",
   "Mathplotlib",
   "Springframework",
-  "H2 data base engine",
+  "Postman"
 ] as const;
 // Git configuration updated
-// Test change for Git status
